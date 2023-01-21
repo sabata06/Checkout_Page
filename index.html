@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+    <title>Checkout-page</title>
+  </head>
+  <body>
+    <h1>CHECKOUT</h1>
+    <div class="main">
+        <div class="container">
+        <div class="items">
+            <div class="item">
+            <img src="./img/photo1.jpg" alt="photo1" />
+            <div class="right">
+                <div>
+                    <p>Remington-Elliot Derringer</p>
+                    <p>$ <b>2500</b> <del>$2750</del></p>
+                </div>
+                <div>
+                    <div>
+                        <div class="counter">
+                    <span class="minus">-</span> <span class="amount">0</span>
+                    <span class="plus">+</span>
+                        </div>
+                    </div>
+                    <div>
+                    <button class="remove">Remove</button>
+                    </div>
+                </div>
+                <div>
+                <span> Product Total : $</span>
+                <span id="first-product" class="proTotal">0</span>
+                </div>
+            </div>
+            </div>
+            <div class="item">
+            <img src="./img/photo2.jpg" alt="photo1" />
+            <div class="right">
+                <div>
+                    <p>Cimarron Texas Ranger <br> Engraved Model P</p>
+                    <p>$ <b>3500</b> <del>$3900</del></p>
+                </div>
+                <div>
+                    <div>
+                        <div class="counter">
+                            <span class="minus">-</span>
+                            <span class="amount">0</span>
+                            <span class="plus">+</span>
+                        </div>
+                    </div>
+                    <div>
+                    <button class="remove">Remove</button>
+                    </div>
+                </div>
+                <div>
+                <span> Product Total : $</span>
+                <span id="second-product" class="proTotal">0</span>
+                </div>
+            </div>
+            </div>
+            <div class="item">
+            <img src="./img/photo3.jpg" alt="photo1" />
+            <div class="right">
+                <div>
+                    <p>Handmade Damascus Steel Knife</p>
+                    <p>$ <b>700</b> <del>$850</del></p>
+                </div>
+                <div>
+                    <div>
+                        <div class="counter">
+                    <span class="minus">-</span> <span class="amount">0</span>
+                    <span class="plus">+</span>
+                        </div>
+                    </div>
+                    <div>
+                    <button class="remove">Remove</button>
+                    </div>
+                </div>
+                <div>
+                <span> Product Total : $</span> 
+                <span id="second-product" class="proTotal">0</span>
+                </div>
+            </div>
+            </div>
+                <div class="total">
+                    <div class="line">
+                        <span>Subtotal</span>
+                        <span id="SubTotal" class="sub">$0</span>
+                    </div>
+                    <div class="line">
+                        <span>Tax(%18)</span>
+                        <span id="tax" class="tax">$0</span>
+                    </div>
+                    <div class="line">
+                        <span>Shipping</span>
+                        <span class="ship">$10</span>
+                    </div>
+                    <div class="line">
+                        <span>Total</span>
+                        <span id="end" class="all-total">$0</span></span>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
