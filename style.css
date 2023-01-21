@@ -12,6 +12,7 @@ h1 {
   margin: 3rem;
 }
 .main {
+  
   color: rgb(49, 40, 35);
   display: flex;
   justify-content: center;
@@ -19,6 +20,7 @@ h1 {
   font-family: "Rye", cursive;
 }
 .container {
+
   border-radius: 20px;
   background-color: bisque;
   width: 80%;
@@ -28,7 +30,7 @@ h1 {
   flex-direction: column;
 }
 img {
-  width: 30vh;
+  width: 30vw;
   margin-right: 20px;
   border-radius: 10px;
   height: 20vh;
