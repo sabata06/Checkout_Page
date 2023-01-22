@@ -70,8 +70,10 @@ del {
   margin-left: 10px;
   padding: 0 5px;
   background-color: antiquewhite;
+  cursor: pointer;
 }
 .plus {
+  cursor: pointer;
   padding: 0 5px;
   margin-right: 10px;
   background-color: antiquewhite;
@@ -83,6 +85,7 @@ button {
   border: none;
   border-radius: 2px;
   padding: 4px;
+  cursor: pointer;
 }
 
 .total {

@@ -2,7 +2,7 @@ const tikla = document.querySelector(".items");
 
 tikla.addEventListener("click", (e) => {
   if (e.target.classList.contains("minus")) {
-    if (e.target.nextElementSibling.innerText > 1) {
+    if (e.target.nextElementSibling.innerText > 0) {
       e.target.nextElementSibling.innerText--;
       pTotal(e.target.closest(".right"));
     } else {
